@@ -6,7 +6,6 @@ description: A wonderful site
 twitter username:jekyllrb
 github usernam: jekerll
 
-#Build settings 
-markdown: kramdown
-theme: minima
+# Build settings
+remote_theme: jekyll/minima
 

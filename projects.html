@@ -1,36 +1,101 @@
 <!DOCTYPE html>
-<head>
-    <title> Myly Fabre - Portfolio 
+<html>
 
-    </title>
-
+    <head>
+        <title>Myly Fabre - Portfolio</title>
+    </head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+    </head>
+    <body>
+        <!-- Header -->
+<header class="w3-panel w3-center w3-auto" style="padding:128px 16px">
+    <img src="img/logo.jpg" alt ="Life Craft" width="50%" height="20%">
+    <div class="w3-padding-32">
+      <div class="w3-bar w3-border">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="projects.html" class="w3-bar-item w3-button w3-light-grey">Projects</a>
+            <a href="education.html" class="w3-bar-item w3-button">Notes</a>
+            <a href="resume.html" class="w3-bar-item w3-button">Curriculum Vitae</a>
+            <a href="pictures.html" class="w3-bar-item w3-button ">Photographies</a>
+      </div>
+    </div>
+  </header>
+ 
+    </body>
 </head>
-<body>
-    <header>
-        <a href="index.html">
-        <img src="img/logo.png" alt ="Life Craft">
-    </a>
+ 
+ <!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin: top 10px;">
 
-    </header>
-<header> 
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="/w3images/sandwich.jpg" href = "qinfo.html" alt="Sandwich" style="width:100%">
+      <h3>Python Pour Lycee</h3>
+      <p>Introduction du language de programmation pyhton pour mieux comprendre les bases et les techniques avancer</p>
+      <button type="button" onclick="alert('Page en Construction')">Lire</button>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/steak.jpg" alt="Steak" style="width:100%">
+      <h3>Entrer dans une autre page</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/cherries.jpg" alt="Cherries" style="width:100%">
+      <h3>Cherries, interrupted</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <p>What else?</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/wine.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="/w3images/popsicle.jpg" alt="Popsicle" style="width:100%">
+      <h3>All I Need Is a Popsicle</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/salmon.jpg" alt="Salmon" style="width:100%">
+      <h3>Salmon For Your Skin</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Perfect Sandwich, A Real Classic</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/croissant.jpg" alt="Croissant" style="width:100%">
+      <h3>Le French</h3>
+      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
 
-</header>
-<hr>
-<nav>
-    <table cellspacing="5" cellpadding="5">
-        <tr>
-        <td><a href= "index.html">Education </a></td>
-        <td><a href= "projects.html">Projects </a></td>
-        <td><a href= "resume.html">Resume </a></td>
-        </tr>
-    </table>
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="projects/project1.html" class="w3-bar-item w3-button w3-hover-black">1</a>
+      <a href="projects/project2.html" class="w3-bar-item w3-black w3-button">2</a>
+      <a href="projects/Project3.html" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+<!-- End page content -->
+</div>
 
-</nav>
-<hr>
-<h2>
-    Welcome to my world !
-</h2>
-<p>
-    Life can be magic and not so well define 
-</p>
-</body>
+</html>
